@@ -12,51 +12,66 @@
     <link rel="icon" type="favicon" href="favicon-google.png" />
   </head>
   <body>
-    <div>
-      <a href="">Gmail</a>
-      <a href="">Image</a>
+    <div class="nav-bar">
+      <a href="" class="nav-item">Gmail</a>
+      <a href="" class="nav-item">Image</a>
 
-      <div>
-        <img src="menu.svg" alt="menu icon" width="20" height="20" />
-      </div>
-      <div><i class="fa-solid fa-circle-user"></i></div>
+      <img
+        class="nav-icon1"
+        src="menu.svg"
+        alt="menu icon"
+        width="20"
+        height="20"
+      />
+      <span class="nav-icon2"> <i class="fa-solid fa-circle-user"></i></span>
     </div>
 
-    <div>
+    <div class="main">
       <div>
-        <img src="google-logo.png" alt="logo" width="272px" />
+        <img src="google-logo.png" alt="logo" width="320px" />
       </div>
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <input type="text" />
-      <i class="fa-solid fa-microphone"></i>
-      <i class="fa-solid fa-camera"></i>
-      <div>
-        <button>Google Search</button>
-        <button>I'm Feeling Lucky</button>
+      <div class="input-area">
+        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+        <input class="input-box" type="text" />
+        <i
+          class="fa-solid fa-microphone mic-icon"
+          data-tooltip="Search by Voice"
+        ></i>
+
+        <i
+          class="fa-solid fa-camera cam-icon"
+          data-tooltip="Search by Image"
+        ></i>
+      </div>
+      <div class="btn-area">
+        <button class="mid-btn">Google Search</button>
+        <button class="mid-btn">I'm Feeling Lucky</button>
       </div>
 
       <div class="language-links">
-        Google offered in:
-        <a href="#">한국어</a>
-        <a href="#">Tiếng Việt</a>
-        <a href="#">Français</a>
-        <a href="#">中文（繁體）</a>
+        <span class="offer">Google offered in:</span>
+        <a href="#" class="language-a">한국어</a>
+        <a href="#" class="language-a">Tiếng Việt</a>
+        <a href="#" class="language-a">Français</a>
+        <a href="#" class="language-a">中文(繁體)</a>
       </div>
     </div>
 
-    <footer>
-      <div>South Korea</div>
-      <span>
-        <a href="">About</a>
-        <a href="">Advertising</a>
-        <a href="">Business</a>
-        <a href="">How Search works</a>
-      </span>
-      <span>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Settings</a>
-      </span>
-    </footer>
+    <div class="footer">
+      <div class="footer1">South Korea</div>
+      <div class="footer2">
+        <span>
+          <a href="" class="footer2-a">About</a>
+          <a href="" class="footer2-a">Advertising</a>
+          <a href="" class="footer2-a">Business</a>
+          <a href="" class="footer2-a">How Search works</a>
+        </span>
+        <span class="footer2-span">
+          <a href="" class="footer2-a">Privacy</a>
+          <a href="" class="footer2-a">Terms</a>
+          <a href="" class="footer2-a">Settings</a>
+        </span>
+      </div>
+    </div>
   </body>
 </html>
