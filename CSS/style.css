@@ -1,0 +1,139 @@
+.css-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.listt {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 8px;
+  font-weight: bold;
+  color: #2c3e50;
+  list-style-position: inside;
+}
+li {
+  padding-bottom: 5px;
+}
+header {
+  background-color: #90bdea1d;
+  padding: 20px;
+
+  width: 100%;
+}
+
+.challenge1 {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid rgba(128, 128, 128, 0.289);
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.092);
+  scroll-margin-top: 50px;
+}
+.fav-color {
+  margin: 10px;
+}
+input {
+  margin: 10px 0px 0px 10px;
+}
+div.sections {
+  color: black;
+  font-size: 30px;
+  font-family: Verdana;
+  font-weight: bold;
+}
+div.box {
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.box1 {
+  border: 50px solid red;
+}
+div.box2 {
+  border: 50px solid green;
+}
+
+div.box3 {
+  border: 50px solid blue;
+}
+
+div.box4 {
+  border: 50px solid #1abc9c;
+}
+div.box5 {
+  border: 50px solid #f39c12;
+}
+
+h1 {
+  color: #9b59b6;
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+p.sub-header {
+  color: #2980b9;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+h1::before {
+  content: 'Topic : ';
+}
+
+.challenge2 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  padding-left: 10%;
+}
+
+h1:first-child {
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+}
+
+td {
+  padding: 5px;
+}
+
+h2::before {
+  content: 'Additional : ';
+}
+h2:last-of-type::before {
+  content: 'Additional : ';
+}
+
+table {
+  border: 1px solid rgb(49, 59, 87);
+  border-collapse: collapse;
+}
+th {
+  background: linear-gradient(to bottom, #8e44ad, #ad87bb);
+}
+footer {
+  margin-top: 10px;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  background-color: #77777716;
+}
