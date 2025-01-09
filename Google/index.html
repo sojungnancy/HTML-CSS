@@ -9,43 +9,76 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="favicon" href="favicon-google.png" />
+    <link rel="icon" type="favicon" href="./assets/favicon-google.png" />
   </head>
   <body>
     <div class="nav-bar">
-      <a href="" class="nav-item">Gmail</a>
-      <a href="" class="nav-item">Image</a>
+      <a href="https://mail.google.com/" class="nav-item">Gmail</a>
+      <a
+        href="https://www.google.com/imghp?hl=en&authuser=0&ogbl"
+        class="nav-item"
+        >Images</a
+      >
+
+      <a
+        href="https://labs.google.com/search?source=hp&authuser=0"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          class="nav-icon0 tooltip"
+          src="./assets/flask.png"
+          alt="menu icon"
+          width="30"
+          height="23"
+          data-tooltip="Search Labs"
+        />
+      </a>
 
       <img
-        class="nav-icon1"
-        src="menu.svg"
+        class="nav-icon1 tooltip"
+        src="./assets/menu.png"
         alt="menu icon"
-        width="20"
-        height="20"
+        width="25"
+        height="25"
+        data-tooltip="Google Apps"
       />
-      <span class="nav-icon2"> <i class="fa-solid fa-circle-user"></i></span>
+      <span>
+        <a href="#" class="nav-icon2 tooltip">
+          <i class="fa-solid fa-circle-user"></i
+        ></a>
+      </span>
     </div>
 
     <div class="main">
       <div>
-        <img src="google-logo.png" alt="logo" width="320px" />
+        <img src="./assets/google-logo.png" alt="logo" width="320px" />
       </div>
       <div class="input-area">
         <i class="fa-solid fa-magnifying-glass search-icon"></i>
         <input class="input-box" type="text" />
-        <i
-          class="fa-solid fa-microphone mic-icon"
-          data-tooltip="Search by Voice"
-        ></i>
 
-        <i
-          class="fa-solid fa-camera cam-icon"
-          data-tooltip="Search by Image"
-        ></i>
+        <img
+          class="mic-icon"
+          src="./assets/mic-icon.png"
+          alt="mic icon"
+          width="25"
+          height="28"
+        />
+
+        <img
+          class="cam-icon"
+          src="./assets/cam-icon.png"
+          alt="cam icon"
+          width="32"
+          height="29"
+        />
       </div>
       <div class="btn-area">
         <button class="mid-btn">Google Search</button>
-        <button class="mid-btn">I'm Feeling Lucky</button>
+        <a href="https://doodles.google/">
+          <button class="mid-btn">I'm Feeling Lucky</button></a
+        >
       </div>
 
       <div class="language-links">
@@ -60,15 +93,39 @@
     <div class="footer">
       <div class="footer1">South Korea</div>
       <div class="footer2">
-        <span>
-          <a href="" class="footer2-a">About</a>
-          <a href="" class="footer2-a">Advertising</a>
-          <a href="" class="footer2-a">Business</a>
-          <a href="" class="footer2-a">How Search works</a>
+        <span class="footer2-span1">
+          <a
+            href="https://about.google/?utm_source=google-KR&utm_medium=referral&utm_campaign=hp-footer&fg=1"
+            class="footer2-a"
+            >About</a
+          >
+          <a
+            href="https://ads.google.com/intl/en_kr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
+            class="footer2-a"
+            >Advertising</a
+          >
+          <a
+            href="https://www.google.com/intl/ko_kr/business/"
+            class="footer2-a"
+            >Business</a
+          >
+          <a
+            href="https://www.google.com/search/howsearchworks/?fg=1"
+            class="footer2-a"
+            >How Search works</a
+          >
         </span>
-        <span class="footer2-span">
-          <a href="" class="footer2-a">Privacy</a>
-          <a href="" class="footer2-a">Terms</a>
+        <span class="footer2-span2">
+          <a
+            href="https://policies.google.com/privacy?hl=en-KR&fg=1"
+            class="footer2-a"
+            >Privacy</a
+          >
+          <a
+            href="https://policies.google.com/terms?hl=en-KR&fg=1"
+            class="footer2-a"
+            >Terms</a
+          >
           <a href="" class="footer2-a">Settings</a>
         </span>
       </div>
