@@ -1,0 +1,27 @@
+.navbar {
+  background: radial-gradient(circle, #141e30, #243b55);
+  padding: 1rem 2rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-list li {
+  margin: 0 15px;
+}
+
+.navbar-list li a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #ecf0f1; /* 밝은 텍스트 색 */
+  font-size: 1.2rem; /* 텍스트 크기 */
+  font-weight: bold;
+  transition: color 0.3s ease; /* 부드러운 색상 전환 */
+}
