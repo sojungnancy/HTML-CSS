@@ -9,11 +9,25 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="image/spotify.svg" type="image/x-icon" />
+
     <title>Spotify</title>
   </head>
   <body>
     <nav>
-      <div><img src="image/logo.png" alt="logo" width="132px" /></div>
+      <div class="roww">
+        <img src="image/logo.png" alt="logo" width="152px" />
+        <div class="search-container">
+          <button class="search-icon" id="searchButton">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="tooltip">Search</span>
+          </button>
+
+          <div class="search-bar hidden" id="searchBar">
+            <input type="text" placeholder="What do you want to play?" />
+          </div>
+        </div>
+      </div>
+
       <div>
         <a class="nav-item" href="#">Premium</a>
         <a class="nav-item" href="#">Support</a>
@@ -98,5 +112,18 @@
         </div>
       </div>
     </footer>
+    <div class="fixed-footer">
+      <div class="footer-content">
+        <div>
+          <strong>Preview of Spotify</strong><br />
+          Sign up to get unlimited songs and podcasts with occasional ads. No
+          credit card needed.
+        </div>
+        <button class="signup-btn">Sign up for free</button>
+      </div>
+    </div>
+
+    <script src="https://app.embed.im/balloons.js" defer></script>
+    <script src="main.js"></script>
   </body>
 </html>
