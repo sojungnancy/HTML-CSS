@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main {
+  height: 969px;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+a,
+span {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1ed760;
+  text-decoration: none;
+}
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
+.headline {
+  font-size: 146px;
+  color: #1ed760;
+  font-weight: 900;
+  position: relative;
+  left: 225px;
+  padding-bottom: 40px;
+}
+
+.headline-first {
+  position: relative;
+  left: -2.5em;
+}
+.secondline {
+  color: #1ed760;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.get-free-btn {
+  text-align: center;
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  font-size: inherit;
+  color: #2941ab;
+  font-weight: 700;
+  border: none;
+}
+.test {
+  text-align: center;
+}
+.get-free-btn:hover {
+  transform: scale(1.07);
+  background-color: #2de26d;
+}
+
+.container-footer {
+  width: 100%;
+  max-width: 1170px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.sub-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.first-box {
+  width: 60%;
+  height: 346px;
+  display: flex;
+  justify-content: space-between;
+}
+.column {
+  padding: 0px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu-item {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.icon-box {
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-box i {
+  font-size: 24px;
+  color: white;
+}
+.top-1 {
+  display: flex;
+}
+
+.second-box {
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+  height: 346px;
+}
+.bottom-1 {
+  color: #919496;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+}
+.bottom-2 {
+  color: #919496;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.bottom-2 a {
+  color: #919496;
+  margin-right: 24px;
+  font-size: 16px;
+  text-decoration: none;
+}
