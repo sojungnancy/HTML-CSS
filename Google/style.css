@@ -1,0 +1,323 @@
+body {
+  font-family: arial, sans-serif;
+  display: contents;
+}
+.nav-bar {
+  float: right;
+  margin: 8px;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #000;
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+.nav-icon0 {
+  text-decoration: none;
+  margin-bottom: -6px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.nav-icon1 {
+  text-decoration: none;
+  margin-bottom: -9px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-icon2 {
+  text-decoration: none;
+  position: relative;
+  top: 5px;
+  cursor: pointer;
+  color: #b467d8;
+  margin-right: 10px;
+  font-size: 30px;
+  margin-bottom: -3px;
+}
+/* .nav-icon2:hover {
+  color: #632d7c;
+} */
+.google-logo {
+  width: 20px;
+}
+.main {
+  margin-top: 170px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.input-area {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.input-box {
+  padding-left: 48px;
+  padding-right: 80px;
+}
+
+input {
+  width: 582px;
+  height: 46px;
+  border: 0.5px solid #dfe1e5;
+  border-radius: 24px;
+  box-shadow: 0 0 8px #cccdd1;
+}
+.input-box:hover {
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: transparent;
+}
+.input-box:focus {
+  outline: none;
+}
+.search-icon {
+  position: relative;
+  left: 40px;
+  top: 0px;
+  cursor: pointer;
+  color: #6b6f7384;
+}
+
+.mic-icon {
+  position: relative;
+  right: 90px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.cam-icon {
+  position: relative;
+  right: 80px;
+  top: 0px;
+  cursor: pointer;
+}
+
+.cam-icon:hover {
+  color: #1f1f1f;
+}
+
+.btn-area {
+  padding-top: 18px;
+}
+
+.mid-btn {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.language-links {
+  margin-top: 10px;
+}
+.offer {
+  color: #474747;
+  padding-right: 4px;
+}
+
+.language-a {
+  text-decoration: none;
+  color: #1a0dab;
+  padding-right: 4px;
+}
+.language-a:hover {
+  text-decoration: underline;
+}
+
+.mid-btn:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+.footer1 {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  color: #1f1f1f;
+}
+
+.footer2 {
+  display: flex;
+  padding: 15px 30px;
+  font-size: 15px;
+  color: #1f1f1f;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer2-a {
+  padding-right: 20px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #1f1f1f;
+}
+
+.footer2-a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) and (min-width: 570px) {
+  .footer2 {
+    justify-content: space-evenly;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+  }
+}
+@media (max-width: 570px) and (min-width: 370px) {
+  .footer2 {
+    justify-content: space-evenly;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .footer2-span1 {
+    padding-bottom: 32px;
+  }
+}
+
+/*modal*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.modal {
+  display: none; /* 기본적으로 숨김 */
+  position: fixed; /* 화면을 기준으로 고정 */
+  z-index: 1000;
+  right: 10px; /* 화면 오른쪽 끝에 배치 */
+  top: 55px; /* 화면 위쪽 끝에 배치 */
+  width: 400px;
+  height: auto; /* 필요 시 전체 높이 */
+  background-color: #f2f3ff; /* 배경색 */
+  box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  padding-top: 500px;
+  background-color: #f2f3ff;
+  position: relative;
+  padding: 20px;
+  border-radius: 8px;
+
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 25px;
+  color: #6a6a6a;
+  cursor: pointer;
+  padding-top: 5px;
+  font-size: 15px;
+  border-radius: 100px;
+}
+
+.close:hover {
+  color: black;
+}
+
+.user-icon {
+  color: #b467d8;
+  font-size: 90px;
+  margin-bottom: 10px;
+}
+.name {
+  color: #3c4043;
+}
+.userhi {
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+.manage-account {
+  color: #005cd4;
+  font-weight: 300;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid #777;
+  border-radius: 40px;
+}
+.manage-account:hover {
+  background-color: #005cd41b;
+}
+.show-more {
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 18px 23px;
+  text-align: left;
+  font-size: 14px;
+}
+.show-more:hover {
+  background-color: #6a6a6a25;
+  border: 1px solid #6a6a6a03;
+}
+.more-from {
+  font-size: 12px;
+  text-align: left;
+  padding-left: 23px;
+  color: #3c4043c1;
+}
+
+.modal-tabs {
+  border: 1px solid #fff;
+  border-radius: 40px;
+  background-color: #fff;
+  color: #1f1f1f;
+  padding: 18px 23px;
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.modal-tabs:hover {
+  background-color: #6a6a6a25;
+  border: 1px solid #6a6a6a03;
+}
+.icon {
+  padding-right: 14px;
+  font-size: 15px;
+}
